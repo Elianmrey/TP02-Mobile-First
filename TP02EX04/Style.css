@@ -1,0 +1,29 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+p.explicacao {
+    font-size: clamp(10px, 5vw, 30px);
+    
+    line-height: 1.5;
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: justify;
+}
+
+
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+}
